@@ -40,7 +40,7 @@ RANDOM_STATE = 42
 # 2. Load & clean the data
 # =========================
 # Change this path if needed
-df = pd.read_csv(r"/Users/sophiewalker/Downloads/spambase.csv")
+df = pd.read_csv(r"/Users/Downloads/spambase.csv")
 
 # Clean columns:
 df["type"] = df["type"].astype(str).str.strip().str.lower()
