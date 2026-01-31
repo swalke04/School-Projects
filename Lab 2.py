@@ -9,7 +9,7 @@ from sklearn.metrics import (
 )
 
 #load the dataset
-df = pd.read_csv("/Users/sophiewalker/Downloads/spambase.csv")
+df = pd.read_csv("/Users/Downloads/spambase.csv")
 
 #Clean taret column 
 df["type"] = df["type"].str.lower().str.strip()
